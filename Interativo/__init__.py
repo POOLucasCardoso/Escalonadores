@@ -1,0 +1,18 @@
+from EscalonadorV2 import Escalonador
+
+escalonador = Escalonador()
+escalonador.addProcesso('p1',1)
+escalonador.escalonar()
+escalonador.escalonar()
+escalonador.escalonar()
+escalonador.addProcesso('p2',2)
+escalonador.escalonar()
+escalonador.escalonar()
+escalonador.escalonar()
+escalonador.escalonar()
+escalonador.escalonar()
+escalonador.escalonar()
+escalonador.escalonar()
+escalonador.escalonar()
+escalonador.escalonar()
+escalonador.escalonar()
