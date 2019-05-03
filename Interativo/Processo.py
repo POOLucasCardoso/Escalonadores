@@ -1,8 +1,7 @@
 class Processo(object):
 
-	def __init__(self, nome, momento, prioridade=0):
+	def __init__(self, nome, prioridade=0):
 		self.nome = nome
-		self.momento = momento
 		self.estados = []
 		self.prioridade = prioridade
 		self.prioridadeDef = prioridade
